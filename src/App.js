@@ -28,7 +28,7 @@ function App() {
       <div className="App">
         {routes}
         <p>temprary text for test git branch <b>extra bold text and another text</b></p>
-        <p>suhana safar aur mausam hasin</p>
+        <p>suhana safar aur mausam hasin...</p>
       </div>
     );
 }
