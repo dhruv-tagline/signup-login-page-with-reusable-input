@@ -1,0 +1,95 @@
+.lableInput {
+  display: flex;
+}
+
+.lableInput label {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.lableInput input {
+  width: -webkit-fill-available;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  padding-left: 5px;
+}
+
+.inpContainer {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  width: -webkit-fill-available;
+  margin-bottom: 10px;
+}
+
+.rInp {
+  padding-block: 10px;
+  padding-inline: 5px;
+  font-size: medium;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  width: -webkit-fill-available;
+  height: 30px;
+}
+
+.error {
+  border-color: red !important;
+}
+.error-msg {
+  color: red;
+  margin-left: 200px;
+  text-wrap: pretty;
+}
+
+.btn {
+  font-size: medium;
+  color: lightgreen;
+  background-color: white;
+  border-radius: 10px;
+  padding-block: 12px;
+  width: 15rem;
+  border: 1px solid;
+  margin: auto;
+}
+
+.btn:hover {
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  width: 50px;
+  margin-left: -35px;
+}
+
+input[type="checkbox"] {
+  width: 50px;
+  margin-left: -35px;
+}
+.select {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.select label {
+  width: 200px;
+  align-self: center;
+}
+
+.selectInputContainer {
+  width: -webkit-fill-available;
+}
+
+.selectInputContainer .error-msg {
+  margin-left: 60px;
+}
+
+.selectInputContainer select {
+  /* padding: 5px;
+  border-radius: 5px;
+  width: -webkit-fill-available; */
+  height: 3rem;
+}

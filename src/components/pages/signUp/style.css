@@ -1,0 +1,43 @@
+.signUp {
+  /* position: absolute; */
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signUpForm {
+  width: -webkit-fill-available;
+  margin-block: 20px;
+  margin-inline: 22rem;
+  display: flex;
+  flex-direction: column;
+  padding-block: 10px;
+  padding-inline: 70px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+
+/* .inputField {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+} */
+
+.selectContainer {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-bottom: 10px;
+}
+
+.msg {
+  background-color: green;
+  color: white;
+  padding-block: 15px;
+  text-align-last: center;
+  margin: 0;
+  margin-inline: 20%;
+  margin-top: 10px;
+  border-radius: 10px;
+}

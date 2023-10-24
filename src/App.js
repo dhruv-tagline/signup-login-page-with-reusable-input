@@ -24,7 +24,12 @@ function App() {
     },
   ]);
 
-  return <div className="App">{routes}</div>;
+  return (
+      <div className="App">
+        {routes}
+        <p>temprary text for test git branch</p>
+      </div>
+    );
 }
 
 export default App;
