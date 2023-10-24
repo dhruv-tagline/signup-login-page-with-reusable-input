@@ -27,7 +27,7 @@ function App() {
   return (
       <div className="App">
         {routes}
-        <p>temprary text for test git branch</p>
+        <p>temprary text for test git branch <b>extra bold text</b></p>
       </div>
     );
 }
